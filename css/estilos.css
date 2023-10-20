@@ -1,8 +1,11 @@
 /* HEADER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */ 
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Roboto:wght@100&display=swap');;
+@import url('https://fonts.googleapis.com/css2? family= Lexend & display=swap');
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    font-family: 'Lexend', sans-serif;
 }
 .logoAmigosPeudos{
     width: 200px;
@@ -10,7 +13,7 @@
     border-radius: 10px;
 }
 .encabezado{
-    border-top: 15px solid #33FFF0;
+    border-top: 15px solid gray;
 }
 .fuentesNav{
     font-size: 20px;
@@ -18,7 +21,7 @@
     padding: 40px;
 }
 .aNav:hover{
-    background-color: #33FFF0;
+    background-color:  #5cdad2;;
 
 }
 
@@ -28,7 +31,6 @@
     text-align: center;
     padding-top:50px;
     padding-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #ccc;
 }
@@ -43,7 +45,7 @@
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;;
     font-size: 1.5rem;
     font-weight: bold;
     color:#ccc;
@@ -53,7 +55,7 @@
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.2rem;
     font-weight: bold;
     color:#ccc;
@@ -96,99 +98,25 @@
     z-index: 2;
 }
 /* Contenido principal Adoptame!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-/*POSITION RELATIVE*/
-.cajaPrincipal{
-    background-color: white;
-    border: 2px white solid;
-    height: 700px;
-    position: relative;
 
-}
-.cajaSecundariaUno{
-    background-color:white;
-    border: 2px rgb(194, 191, 191) solid;
-    width: 350px;
-    height: 400px;
-    position: relative;
-    top: 10px;
-    left: 50px;
-}
-.cajaSecundariaDos{
-    background-color:white;
-    border: 2px rgb(194, 191, 191) solid;
-    width: 350px;
-    height: 400px;
-    position: relative;
-    bottom: 395px;
-    left: 500px;
-}
-.cajaSecundariaTres{
-    background-color:white;
-    border: 2px rgb(194, 191, 191) solid;
-    width: 350px;
-    height: 400px;
-    position: relative;
-    bottom: 800px;
-    left: 950px;
-}
-.cajaSecundariaCuatro{
-    background-color:white;
-    border: 2px rgb(194, 191, 191) solid;
-    width: 350px;
-    height: 400px;
-    position: relative;
-    bottom: 1200px;
-    left: 1400px;
-}
-.itemUno{
-    background-color:rgb(202, 198, 198);
-    position: relative;
-    bottom:20px;
-    height:40px;
-}
-.itemDos{
-    position:relative;
-    bottom:10px;
-    left: 5px;
-}
-.animalFoto{
-    width: 340px;
-
-}
-.nombreAnimal{
+.tituloAdoptame{
+    background-color: #5cdad2;
+    color:aliceblue;
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: dimgray;
+    padding: 16px;
+    font-weight: bold;
 }
-.descripcionAnimal{
-    text-align: center;
-}
-.itemTres{
-    background-color:rgb(202, 198, 198);
-    position: relative;
-    bottom:20px;
-    height:150px;
 
-}
-.itemCuatro{
-    background-color:rgb(116, 211, 179);
-    border: 2px rgb(99, 202, 168) solid;
-    width: 300px;
-    height: 40px;
-    position: relative;
-    bottom: 5px;
-    left: 25px;
-    text-align:center;
-    text-transform:initial;
-    font-size: xx-large;
-    border-radius: 5px;
-    
-}
 .botonAdoptar{
-    text-decoration: none;
-    color: white;
-    font-weight: bold; 
+    background-color: #5cdad2;
+    margin-left: 7%;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 1.5rem;
 }
+
 /* Contenido Principal Colabora!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .contenidoPrincipalColabora{
     background-color: white;
@@ -199,7 +127,6 @@
 .ayudanos {
     text-align: center;
     padding: 30px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
     color: rgb(73, 71, 71);
 }
 .textoAyuda {
