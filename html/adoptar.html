@@ -39,31 +39,47 @@
         </nav>
     </header>
 
-
-    <form class="adoptarContenidoPrincipal">
-        <h1 class="tituloFormularioAdopcion"> Formulario de adopción</h1>
-        <div class="grupo">
-            <label for="nombre">Nombre</label>
-            <input type="text" placeholder="Ej. Lara" id="nombre" class="formulario">
-        </div>
-        <div class="grupo">
-            <label for="apellido">Apellido</label>
-            <input type="text" placeholder="Ej. Cespedes" id="apellido" class="formulario">
-        </div>
-        <div class="grupo">
-            <label for="numero">Numero de telefono</label>
-            <input type="number" placeholder="Ej. 1145678956" id="numero" class="formulario">
-        </div>
-        <div class="grupo">
-            <label for="email">Correo</label>
-            <input type="email" placeholder="ejemplo@gmail.com" id="email" required class="formulario">
-        </div>
-        <div class="grupo">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su consulta" class="formulario"></textarea>
-        </div>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Cancelar">
-    </form>
+    <main>
+        <h1 class="tituloAdoptar">Formulario de Adopción</h1>
+        <form class="row g-4 m-5 fondo">
+            <div class="col-md-6">
+                <label for="inputFirstName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="inputFirstName">
+            </div>
+            <div class="col-md-6">
+                <label for="inputLastName" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="inputLastName">
+            </div>
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" required>
+            </div>
+            <div class="col-md-6">
+                <label for="inputCell" class="form-label">Telefono</label>
+                <input type="text" class="form-control" id="inputCell">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Cespedes 1234">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Localidad</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-6">
+                <label for="inputState" class="form-label">Partido</label>
+                <select id="inputState" class="form-select" >
+                    <option selected >Seleccionar</option>
+                    <option>Pilar</option>
+                    <option>Zárate</option>
+                    <option>Luján</option>
+                </select>
+            </div>
+            <div class="col-12 mb-4">
+                <button type="submit" class="botonForm">Enviar</button>
+            </div>
+        </form>
+    </main>
 
     <footer class="container">
         <div class="py-3 my-4">

@@ -5,9 +5,6 @@
     margin: 0;
     padding: 0;
 }
-/* body{
-    font-family:  'Sometype Mono', monospace;
-} */
 .logoAmigosPeudos{
     width: 80%;
     cursor: pointer;
@@ -109,13 +106,18 @@
 }
 
 .botonAdoptar{
-    background-color: #5cdad2;
-    margin-left: 7%;
-    padding-left: 30%;
-    padding-right: 30%;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgb(150, 147, 147);
+    margin-left: 35%;
+    padding: 2% 5%;
     font-weight: bold;
-    color: aliceblue;
+    color: white;
     font-size: 1.5rem;
+}
+.botonAdoptar:hover{
+    background-color: #5cdad2;
 }
 
 /* Contenido Principal Colabora!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -171,9 +173,8 @@
     color: rgb(73, 71, 71);
 }
 .contenedorMapa{
-    width: 50%; 
-    height: 450px; 
-    margin: auto;
+    width: 100%; 
+    margin: 10%;
     margin-bottom: 20px
   }
 .contactoDerecho{
@@ -191,7 +192,31 @@
     margin-bottom: 5px; 
   }
 /* Adoptar Contenido principal !!!!!!!!!!!!!!!!!!!!!!!*/
-.adoptarContenidoPrincipal{
+.tituloAdoptar{
+    background-color: #5cdad2;
+    color:aliceblue;
+    text-align: center;
+    padding: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.botonForm{
+    background-color: rgb(150, 147, 147);
+    color: white;
+    margin-left: 48%;
+    font-family: 'Roboto', sans-serif;
+    padding:0.5% 1%;
+    border: none;
+    border-radius: 5px;
+}
+.botonForm:hover{
+    background-color: #5cdad2;
+    
+ }
+.fondo{
+    background-color:rgb(227, 227, 227);
+    border-radius: 5px;
+}
+/* .adoptarContenidoPrincipal{
     height: 625px;
     max-width: 500px; 
     margin: 0 auto; 
@@ -205,4 +230,4 @@
     padding: 10px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
     color: rgb(73, 71, 71);
-}
+} */
